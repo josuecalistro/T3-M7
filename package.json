@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-sass-nesting",
+  "version": "1.0.0",
+  "description": "Proyecto utilizando SASS, nesting, variables y validaciones CSS",
+  "scripts": {
+    "sass": "sass scss/styles.scss css/styles.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
