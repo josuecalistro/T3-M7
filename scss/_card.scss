@@ -1,0 +1,35 @@
+.card {
+  background-color: $color-card-bg;
+  padding: $card-padding;
+  border: $card-border;
+  border-radius: $card-border-radius;
+
+  &__title {
+    color: $color-title;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__content {
+    color: $color-text;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__button {
+    background-color: $color-button;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &--highlighted {
+    background-color: $color-card-highlight;
+  }
+}
